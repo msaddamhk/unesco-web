@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Unesco Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name=viewport />
+    <meta content="" name=keywords />
+    <meta content="" name=description />
+    <link href=img/favicon.ico rel=icon />
+    <link rel=preconnect href=https://fonts.googleapis.com />
+    <link rel=preconnect href=https://fonts.gstatic.com crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap" rel=stylesheet />
+    <link href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css rel=stylesheet />
+    <link href=https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css rel=stylesheet />
+    <link href=lib/animate/animate.min.css rel=stylesheet />
+    <link href=lib/owlcarousel/assets/owl.carousel.min.css rel=stylesheet />
+    <link href=lib/lightbox/css/lightbox.min.css rel=stylesheet />
+    <link href=css/bootstrap.min.css rel=stylesheet />
+    <link href=css/style.css rel=stylesheet />
+
+    <link rel="preload" href="img/ft1.JPG" as="image">
+    <link rel="preload" href="img/ft3.JPG" as="image">
+
+</head>
+
+<body>
+    <div id=spinner class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role=status style="width: 3rem; height: 3rem"></div>
+    </div>
+    <div class=bg-dark>
+        <div class=container>
+            <div class="row g-0 d-none d-lg-flex">
+                <div class=col-lg-6>
+                    <div class="h-100 d-inline-flex align-items-center text-light"><span>Follow Us:</span> <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+        <div class=container>
+            <a href=index.html class="navbar-brand d-flex align-items-center">
+                <h1 class=m-0>Unesco</h1>
+            </a> <button type=button class="navbar-toggler me-0" data-bs-toggle=collapse data-bs-target=#navbarCollapse><span class=navbar-toggler-icon></span></button>
+            <div class="collapse navbar-collapse" id=navbarCollapse>
+                <div class="navbar-nav ms-auto p-4 p-lg-0"><a href=index.html class="nav-item nav-link">Home</a> <a href=#about class="nav-item nav-link">About</a> <a href=#gang class="nav-item nav-link">Our Gang</a> <a href=#team class="nav-item nav-link">Our Team</a>
+                    <a class="nav-item nav-link" data-bs-toggle=modal href=#exampleModalToggle role=button>Download Foto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid px-0 mb-5">
+        <div id=header-carousel class="carousel slide" data-bs-ride=carousel>
+            <div class=carousel-inner>
+                <div class="carousel-item active"><img class=foto src=img/baner.JPG width=100% alt=Image />
+                    <div class=carousel-caption>
+                        <div class=container>
+                            <div class="row justify-content-start">
+                                <div class="col-lg-8 text-start ps-4 m-4 ps-lg-5 m-lg-5">
+                                    <p class="fs-4 text-white">Welcome to</p>
+                                    <h1 class="display-5 text-white animated mb-3 slideInRight">Unesco Website</h1>
+                                    <button class="btn btn-secondary display-3 rounded-pill py-2 px-2 px-lg-3 animated slideInRight" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Play Vidio</i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=carousel-item><img class=foto src=img/banner22.JPG width=100% alt=Image />
+                    <div class=carousel-caption>
+                        <div class=container>
+                            <div class="row justify-content-start">
+                                <div class="col-lg-8 text-start ps-4 m-4 ps-lg-5 m-lg-5">
+                                    <p class="fs-4 text-white">Welcome to</p>
+                                    <h1 class="display-5 text-white animated mb-4 slideInRight">Unesco Website</h1>
+                                    <button class="btn btn-secondary display-3 rounded-pill py-2 px-2 px-lg-3 animated slideInRight" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Play Vidio</i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><button class=carousel-control-prev type=button data-bs-target=#header-carousel data-bs-slide=prev><span class=carousel-control-prev-icon aria-hidden></span> <span class=visually-hidden>Previous</span></button> <button class=carousel-control-next
+                type=button data-bs-target=#header-carousel data-bs-slide=next><span class=carousel-control-next-icon aria-hidden></span> <span class=visually-hidden>Next</span></button></div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Vidio</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" src="https://www.youtube.com/embed/GFAFkxP2EgM?si=vVe-TDx7gf--PDeZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="about">
+        <div class="container-xxl py-5">
+            <div class=container>
+                <div class="row g-5 align-items-center">
+                    <div class=col-lg-6>
+                        <p class="section-title bg-white text-start text-primary pe-3">About Us!</p>
+                        <div class=overflow-hidden>
+                            <div class="row g-0">
+                                <div class="col-sm-6 wow fadeIn card rounded-0" data-wow-delay=0.1s>
+                                    <div class="text-center bg-primar py-5 px-4">
+                                        <h1 class=display-6 data-toggle=counter-up>33</h1><span class="fs-5 fw-semi-bold text-primary">The number of students</span></div>
+                                </div>
+                                <div class="col-sm-6 wow fadeIn card rounded-0" data-wow-delay=0.3s>
+                                    <div class="text-center bg-secondar py-5 px-4">
+                                        <h1 class=display-6 data-toggle=counter-up>3</h1><span class="fs-5 fw-semi-bold text-primary">Award Winning</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay=0.1s>
+                        <h1 class=mb-4>Hi Guys, come on, get to know us more</h1>
+                        <p class=mb-4>
+                            Welcome to UNESCO vibes! We're a squad of 33 awesome and talented students, each with our own unique flair. Together, we're rocking this educational journey with mad enthusiasm and a hunger to learn! 🚀✨
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gang">
+        <div class="container-xxl py-5">
+            <div class=container>
+                <div class="text-center mx-auto" style="max-width: 500px">
+                    <p class="section-title bg-white text-center text-primary px-3">Our Geng</p>
+                    <h1 class=mb-5>This is our gang</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <a href="img/ft1.JPG ">
+                            <div class="team-item rounded p-4"><img class="rounded mb-4" src=img/ft1.JPG alt="" width=100% height=300px style="object-fit: cover;" /></div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="img/ft3.JPG ">
+                            <div class="team-item rounded p-4"><img class="rounded mb-4" src=img/ft3.JPG alt="" width=100% height=300px style="object-fit: cover;" /></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container-xxl py-5">
+            <div class=container>
+                <div class="text-center mx-auto" style="max-width: 500px">
+                    <p class="section-title bg-white text-center text-primary px-3">Our Team</p>
+                    <h1 class=mb-5>This is our Team</h1>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo1.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo1.JPG" alt="">
+                                <h6>Auliya</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo2.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo2.JPG" alt="">
+                                <h6>Rafif</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo4.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo4.JPG" alt="">
+                                <h6>Azmi</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo5.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo5.JPG" alt="">
+                                <h6>Rafi</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo6.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo6.JPG" alt="">
+                                <h6>Dika</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo7.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo7.JPG" alt="">
+                                <h6>Wilbi</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo8.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo9.JPG" alt="">
+                                <h6>Habibie</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo9.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo9.JPG" alt="">
+                                <h6>Kaisan</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo10.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo10.JPG" alt="">
+                                <h6>Zakky</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo11.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo11.JPG" alt="">
+                                <h6>Hafizh</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo12.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo12.JPG" alt="">
+                                <h6>Faiz</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo13.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo13.JPG" alt="">
+                                <h6>Dzikra</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo14.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo14.JPG" alt="">
+                                <h6>Daffa</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cowo/cwo15.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cowo/cwo15.JPG" alt="">
+                                <h6>Syaqib</h6>
+                            </picture>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw1.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw1.JPG" alt="">
+                                <h6>Haltara</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw2.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw2.JPG" alt="">
+                                <h6>Raifatun</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw3.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw3.JPG" alt="">
+                                <h6>Benazir</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw4.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw4.JPG" alt="">
+                                <h6>Raina</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw5.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw5.JPG" alt="">
+                                <h6>Cut</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw6.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw6.JPG" alt="">
+                                <h6>Anggi</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw7.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw7.JPG" alt="">
+                                <h6>Naila</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw8.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw8.JPG" alt="">
+                                <h6>Tara</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw9.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw9.JPG" alt="">
+                                <h6>Keisya</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw10.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw10.JPG" alt="">
+                                <h6>Aliya</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw11.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw11.JPG" alt="">
+                                <h6>Hafifah</h6>
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw12.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw12.JPG" alt="">
+                                <h6>Raisya</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw13.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw13.JPG" alt="">
+                                <h6>Icha</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw14.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw14.JPG" alt="">
+                                <h6>Nabila</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw15.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw15.JPG" alt="">
+                                <h6>Khalila</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="team-item rounded p-4">
+                            <picture>
+                                <source srcset="img/cewe/cw16.JPG">
+                                <img class="img-fluid rounded mb-4" src="img/cewe/cw16.JPG" alt="">
+                                <h6>Dina</h6>
+
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid bg-dark text-body copyright py-4">
+        <div class=container>
+            <div class=row>
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">© <a class=fw-semi-bold href=#>Unesco</a>, All Right Reserved.</div>
+                <div class="col-md-6 text-center my-auto text-md-end">Developed By <a class=fw-semi-bold href="">M Saddam HK</a></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id=exampleModalToggle aria-hidden aria-labelledby=exampleModalToggleLabel tabindex=-1>
+        <div class="modal-dialog modal-dialog-centered">
+            <div class=modal-content>
+                <div class=modal-header>
+                    <h1 class="modal-title fs-5" id=exampleModalToggleLabel>Masuk</h1><button type=button class=btn-close data-bs-dismiss=modal aria-label=Close></button></div>
+                <form id=passwordForm>
+                    <div class=modal-body>
+                        <div class=mb-3><label for=passwordInput class=form-label>Password:</label><input type=password class=form-control id=passwordInput required /></div>
+                    </div>
+                    <div class=modal-footer><button type=button class="btn btn-primary" onclick=checkPassword()>Submit</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id=exampleModalToggle2 aria-hidden aria-labelledby=exampleModalToggleLabel2 tabindex=-1>
+        <div class="modal-dialog modal-dialog-centered">
+            <div class=modal-content>
+                <div class=modal-header>
+                    <h1 class="modal-title fs-5" id=exampleModalToggleLabel2>Link Download Foto</h1><button type=button class=btn-close data-bs-dismiss=modal aria-label=Close></button></div>
+                <div class=modal-body><a href="https://drive.google.com/drive/folders/1TFJwCiNbKE0sjgpjFAT2r1iuuiNvU16g?usp=drive_link">Alihkan ke Google Drive -></a></div>
+            </div>
+        </div>
+    </div>
+
+    <a href=# class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <script src=https://code.jquery.com/jquery-3.4.1.min.js></script>
+    <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js></script>
+    <script src=lib/wow/wow.min.js></script>
+    <script src=lib/easing/easing.min.js></script>
+    <script src=lib/waypoints/waypoints.min.js></script>
+    <script src=lib/owlcarousel/owl.carousel.min.js></script>
+    <script src=lib/counterup/counterup.min.js></script>
+    <script src=lib/parallax/parallax.min.js></script>
+    <script src=lib/lightbox/js/lightbox.min.js></script>
+    <script src=js/main.js></script>
+
+    <script>
+        function checkPassword() {
+            var n = document.getElementById("passwordInput").value;
+            n === "smp6" ? ($("#exampleModalToggle").modal("hide"), $("#exampleModalToggle2").modal("show")) : alert("Password incorrect. Please try again.")
+        }
+    </script>
+</body>
+
+</html>
